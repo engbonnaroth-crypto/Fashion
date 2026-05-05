@@ -1,0 +1,305 @@
+@import url("https://fonts.googleapis.com/css2?family=BBH+Sans+Hegarty&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #e7d7c9;
+  font-family: "Inter", sans-serif;
+}
+.navbar {
+  background-color: rgb(159, 76, 92) !important;
+}
+.navbar img {
+  border-radius: 50%;
+  margin-left: 50px;
+}
+.navbar ul li a {
+  font-size: 20px;
+  margin-left: 20px;
+}
+.banner .bnn1 .bnn2 img {
+  position: relative;
+  height: 750px;
+}
+.banner .button {
+  position: absolute;
+  top: 20%;
+  left: 35%;
+}
+.banner .button h1 {
+  font-size: 65px;
+  font-family: "BBH Sans Hegarty", sans-serif;
+  color: black;
+}
+.banner .button p {
+  font-size: 20px;
+}
+.banner .button button {
+  font-size: 26px;
+  padding: 15px;
+  border-radius: 30px;
+  color: aliceblue;
+  background-color: rgb(159, 76, 92);
+}
+.banner .button button:hover {
+  background-color: rgb(174, 44, 44);
+}
+.list-menu div {
+  width: 24%;
+  padding: 10px;
+  margin-bottom: 30px;
+  border-radius: 15px;
+  border: 1px solid black;
+}
+.list-menu div:hover {
+  transform: 3px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.276);
+}
+.list-menu i {
+  font-size: 25px;
+  margin-left: 50px;
+}
+.nav-pills .nav-link {
+  color: black;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.nav-pills .nav-link.active {
+  background-color: rgb(159, 76, 92) !important;
+  color: #fff !important;
+  border-radius: 20px;
+}
+.container .card {
+  border-radius: 30px;
+  background-color: rgba(193, 193, 193, 0.534);
+  border: 2px solid rgba(0, 0, 0, 0.425);
+  cursor: pointer;
+}
+.container .card:hover {
+  transform: 3px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.276);
+}
+.img-card {
+  border-radius: 28px 28px 0 0;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+.card-body a {
+  background-color: rgb(159, 76, 92);
+  color: white;
+  border-radius: 15px;
+}
+/* footer */
+footer {
+  background-color: rgb(112, 50, 62);
+}
+.img-disc {
+  width: 80%;
+  height: 450px;
+  object-fit: cover;
+}
+@media (max-width: 767px) {
+  .title h1 {
+    font-size: 24px;
+    color: #744800;
+  }
+  .title p {
+    font-size: 14px;
+    color: #744800;
+  }
+  .title {
+    padding: 5%;
+    margin-left: 0%;
+    text-align: center;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .title h1 {
+    font-size: 36px;
+  }
+  .title p {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 992px) {
+  .title h1 {
+    font-size: 48px;
+  }
+  .title p {
+    font-size: 18px;
+  }
+}
+/* Contact */
+.contact-wrapper {
+  max-width: 850px;
+  background: #f5eee7;
+  border-radius: 20px;
+  padding: 45px;
+  margin: 60px auto;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+}
+.title {
+  font-size: 38px;
+  font-weight: 600;
+  margin-bottom: 35px;
+  color: #654b3a;
+  text-align: center;
+}
+label {
+  color: #6b5b4d;
+  font-weight: 500;
+}
+.form-control {
+  border-radius: 12px;
+  border: 1px solid #c7b8a6;
+  background: #faf6f2;
+  padding: 12px 16px;
+}
+.form-control:focus {
+  box-shadow: none;
+  border-color: #8c6f5a;
+}
+button {
+  background-color: #8c6f5a;
+  color: white;
+  border-radius: 12px;
+  padding: 12px 30px;
+  border: none;
+  font-weight: 600;
+  transition: 0.2s ease;
+}
+button:hover {
+  background-color: rgb(173, 44, 44);
+}
+
+/* Shop */
+.section {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 40px;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+h1 {
+  text-align: center;
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #5a4636;
+}
+h3 {
+  font-weight: 600;
+  margin-top: 25px;
+  color: #6f4f37;
+}
+.shop-img {
+  width: 100%;
+  border-radius: 16px;
+  margin-top: 25px;
+}
+/* login */
+.login-card {
+  border: 1px solid black;
+  margin: 0 auto;
+  margin-block: 80px;
+  padding: 50px;
+  border-radius: 30px;
+}
+.login-card .input label {
+  margin-bottom: 7px;
+}
+.login-card .input input {
+  width: 100%;
+  border: none;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.login-card .log-end .login-btn,
+button {
+  width: 80%;
+  margin-left: 30px;
+  padding: 10px;
+  margin-block: 10px;
+  background-color: rgb(159, 76, 92);
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.login-card .log-end .login-btn:hover {
+  background-color: rgb(175, 41, 41);
+}
+/* Add to card */
+.add-card h1 {
+  margin-right: 85%;
+}
+.add-card table tbody tr,
+th,
+td {
+  padding: 7px;
+  width: 15%;
+  border: 2px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+.add-card table tbody tr td img {
+  width: 100px;
+  height: 90px;
+  object-fit: cover;
+}
+.add-card table tbody tr td i {
+  color: red;
+}
+.btn-add {
+  background-color: rgb(159, 76, 92);
+  color: white;
+  margin-left: 23%;
+}
+.btn-add:hover {
+  background-color: rgb(171, 49, 49);
+  color: white;
+}
+/* Card detail */
+.clothes-detail-card img {
+  height: 280px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Color Circle Style */
+/* Smaller image */
+.card-img-small {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Color options */
+.card-img-small {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.clothes-detail-card {
+  border-radius: 12px;
+  transition: 0.3s;
+}
+.clothes-detail-card:hover {
+  transform: translateY(-4px);
+}
+/* payment */
+.payment-box {
+  border-radius: 15px;
+  background: #ffffff;
+}
+.payment-box:hover {
+  transform: translateY(-4px);
+  transition: 0.3s;
+}
